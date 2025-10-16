@@ -1,0 +1,169 @@
+@media (max-width: 87.5em) {
+  .container {
+    padding: 0rem 2rem;
+  }
+  .flip-card-1.card4 {
+    width: 57.2rem;
+    border-radius: 12px;
+  }
+  .flip-card-1.card3 {
+    width: 57.2rem;
+    border-radius: 12px;
+  }
+  .flip-card-1.card1 {
+    width: 57.2rem;
+    border-radius: 12px;
+  }
+  .flip-card {
+    width: 57.2rem !important;
+  }
+}
+/*---------------------------------------------------*/
+/*-----------------MAX-WIDTH:1400PX -----------------*/
+/*---------------------------------------------------*/
+@media (max-width: 83em) {
+  .caresual-container {
+    justify-content: flex-start !important;
+  }
+}
+/*---------------------------------------------------*/
+/*-----------------MAX-WIDTH:1200PX -----------------*/
+/*---------------------------------------------------*/
+@media (max-width: 76em) {
+  html {
+    font-size: 56.25% !important;
+  }
+  .image-caresual-mlt-img img {
+    max-width: 33rem !important;
+  }
+}
+/*---------------------------------------------------*/
+/*-----------------MAX-WIDTH:1024PX -----------------*/
+/*---------------------------------------------------*/
+@media (max-width: 64em) {
+  html {
+    font-size: 50% !important;
+  }
+  .About-us-container {
+    flex-direction: column;
+
+    gap: 5rem;
+  }
+  .Abut-us-imgs {
+    display: flex;
+    align-self: center;
+  }
+}
+
+@media (max-width: 55em) {
+  html {
+    font-size: 45% !important;
+  }
+}
+/*---------------------------------------------------*/
+/*-----------------MAX-WIDTH:1110PX -----------------*/
+/*---------------------------------------------------*/
+@media (max-width: 69.3em) {
+  .head-list-items {
+    gap: 1.2rem;
+  }
+}
+/*---------------------------------------------------*/
+/*-----------------MAX-WIDTH:992PX -----------------*/
+/*---------------------------------------------------*/
+@media (max-width: 62em) {
+  .checkbtn {
+    display: block !important;
+  }
+  .head-list-items {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+    width: 100vw;
+    margin-top: 5.7rem;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s ease-in-out; /* Smooth show */
+    justify-content: center;
+    top: 3rem;
+    left: 0;
+  }
+  .head-list-items li a {
+    font-size: 4rem;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: #0082e6;
+  }
+  .header-link {
+    display: none !important;
+  }
+
+  #check:checked ~ .head-list-items {
+    opacity: 1;
+  }
+}
+/*---------------------------------------------------*/
+/*-----------------MAX-WIDTH:767PX -----------------*/
+/*---------------------------------------------------*/
+@media (max-width: 48em) {
+  html {
+    font-size: 35% !important;
+  }
+}
+/*---------------------------------------------------*/
+/*-----------------MAX-WIDTH:360PX -----------------*/
+/*---------------------------------------------------*/
+@media (max-width: 43em) {
+  .Abut-us-imgs {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .caresoul-text-container {
+    display: flex !important;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .Faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Address-content-and-location-address {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-container {
+    padding-bottom: 32.4rem;
+    padding-top: 28.4rem;
+
+    padding-left: 10.2rem !important;
+  }
+}
+/*---------------------------------------------------*/
+/*-----------------MAX-WIDTH:767PX -----------------*/
+/*---------------------------------------------------*/
+@media (max-width: 26em) {
+  .image-caresual-mlt-img img {
+    width: 100rem;
+  }
+}
+/*---------------------------------------------------*/
+/*-----------------MAX-WIDTH:560PX -----------------*/
+/*---------------------------------------------------*/
+@media (max-width: 35em) {
+  .image-caresual-mlt-img {
+    width: 100% !important;
+  }
+}
